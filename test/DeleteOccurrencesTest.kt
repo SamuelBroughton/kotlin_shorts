@@ -2,7 +2,7 @@ import org.junit.jupiter.api.Test
 import org.junit.jupiter.api.Assertions.assertArrayEquals
 
 
-class DeleteOccurrencesTests {
+class DeleteOccurrencesTest {
     @Test
     fun `return empty intArray if maxOccurrences is less than 1`() {
         assertArrayEquals(
